@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>  
+<?import javafx.scene.*?>  
+<?import javafx.scene.control.*?>  
+<?import javafx.scene.layout.*?>  
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>  
+
+<Pane fx:id="mainArea" xmlns:fx="http://javafx.com/fxml" fx:controller="paint.controllers.DrawingAreaController">
+
+</Pane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>  
+<?import javafx.scene.*?>  
+<?import javafx.scene.control.*?>  
+<?import javafx.scene.layout.*?>  
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>  
+
+<BorderPane fx:controller="paint.controllers.BorderPaneController" xmlns:fx="http://javafx.com/fxml">
+    <top>
+       <fx:include source="Menu.fxml" fx:id="menu" />
+    </top>
+    <left>
+       <fx:include source="ShapesPanel.fxml" fx:id="shapesPanel" />
+    </left>
+    <center>
+       <fx:include source="DrawingArea.fxml" fx:id="drawingArea" />
+    </center>
+    <right>
+       <fx:include source="Controllers.fxml" fx:id="controllers" />
+    </right>
+    <bottom>
+        <fx:include source="FormattingPanel.fxml" fx:id="formatingPanel" />
+    </bottom>
+</BorderPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>  
+<?import javafx.scene.*?>  
+<?import javafx.scene.control.*?>  
+<?import javafx.scene.layout.*?>  
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ScrollBar?>  
+
+<HBox fx:id="bottonMenu" xmlns:fx="http://javafx.com/fxml" fx:controller="paint.controllers.FormattingPanelController">
+
+    <VBox>
+        <Label text="Choose Fill Color"></Label>
+        <ColorPicker fx:id="fillColorChooser"> </ColorPicker>
+    </VBox>
+
+    <VBox>
+        <Label text="Choose Stroke Color"></Label>
+        <ColorPicker fx:id="strokeColorChooser"> </ColorPicker>    
+    </VBox>
+      
+    <HBox>
+        <Label text="Choose Stroke Width"></Label>
+        <ScrollBar fx:id="strokeWidthChooser" min="0" max="20" value="1"> </ScrollBar>
+    </HBox>
+    <Label fx:id="labelShowStrokeWidth" text="Choose Stroke Width"></Label>
+    
+</HBox>

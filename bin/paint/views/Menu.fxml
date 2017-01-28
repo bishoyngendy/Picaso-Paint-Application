@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>  
+<?import javafx.scene.*?>  
+<?import javafx.scene.control.*?>  
+<?import javafx.scene.layout.*?>  
+<?import javafx.scene.layout.BorderPane?>  
+
+<VBox id="vbox" xmlns:fx="http://javafx.com/fxml/1"  
+      fx:controller="paint.controllers.MenuController">  
+   <MenuBar fx:id="menuBar">  
+      <menus>  
+         <Menu text="File">  
+            <items>  
+               <MenuItem text="Save As" onAction="#saveAll"/>  
+               <MenuItem text="Load" onAction="#loadAll"/>  
+            </items>  
+         </Menu>  
+         <Menu text="Plugins">  
+            <items>  
+               <MenuItem text="Load new plugin" onAction="#loadDynamicClass"/>  
+            </items>  
+         </Menu>
+      </menus>  
+   </MenuBar> 
+</VBox>  

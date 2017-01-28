@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>  
+<?import javafx.scene.*?>  
+<?import javafx.scene.control.*?>  
+<?import javafx.scene.layout.*?>  
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>  
+
+<VBox fx:id="leftMenu" xmlns:fx="http://javafx.com/fxml" fx:controller="paint.controllers.ShapesPanelController">
+    <Button text="Line" onAction="#passLine"></Button>
+    <Button text="Rectangle" onAction="#passRectangle"></Button>
+    <Button text="Triangle" onAction="#passTriangle"></Button>
+    <Button text="Square" onAction="#passSquare"></Button>
+    <Button text="Ellipse" onAction="#passEllipse"></Button>
+    <Button text="Circle" onAction="#passCircle"></Button>
+</VBox>
